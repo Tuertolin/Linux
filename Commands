@@ -1,0 +1,5 @@
+#Check Ubuntu version
+lsb_release -a
+
+# On Ubuntu 18.04 (bionic)
+sudo netplan ip leases eth0
