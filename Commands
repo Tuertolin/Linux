@@ -4,6 +4,12 @@ lsb_release -a
 # On Ubuntu 18.04 (bionic)
 sudo netplan ip leases eth0
 
+#How to know my getway
+route -nee
+
+#IPConfig
+ip a
+
 # Configure IP
 sudo nano /etc/netplan/50-cloud-init.yaml
 
