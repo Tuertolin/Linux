@@ -28,3 +28,12 @@ network:
 
 
 sudo netplan apply
+
+#Add a user to a group
+sudo usermod -a -G groupName userName
+
+#list groups
+sudo groups
+
+#List the users from a group
+getent group groupName
