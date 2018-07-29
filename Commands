@@ -38,5 +38,11 @@ sudo usermod -a -G groupName userName
 #list groups
 sudo groups
 
+#How to delete programs
+sudo apt-get purge 'php*'
+
+#How to list all installed programs
+dpkg --list
+
 #List the users from a group
 getent group groupName
