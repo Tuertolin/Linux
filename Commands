@@ -40,6 +40,8 @@ sudo groups
 
 #How to delete programs
 sudo apt-get purge 'php*'
+apt-get clean
+
 
 #How to list all installed programs
 dpkg --list
