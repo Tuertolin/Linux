@@ -48,3 +48,11 @@ dpkg --list
 
 #List the users from a group
 getent group groupName
+
+#To know Version release
+$ lsb_release -a
+No LSB modules are available.
+Distributor ID:	Ubuntu
+Description:	Ubuntu 16.04.5 LTS
+Release:	16.04
+Codename:	xenial
