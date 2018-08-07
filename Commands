@@ -59,3 +59,6 @@ Codename:	xenial
 
 #SMBCLIENT for god sake
  sudo smbclient //172.23.151.145/03_Cert -U kmau/ggonzalez
+
+#First of all, you can list all of the available PHP 7.0-related packages for review:
+apt-cache pkgnames | grep php7.0
