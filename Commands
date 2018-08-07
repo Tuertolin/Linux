@@ -56,3 +56,6 @@ Distributor ID:	Ubuntu
 Description:	Ubuntu 16.04.5 LTS
 Release:	16.04
 Codename:	xenial
+
+#SMBCLIENT for god sake
+ sudo smbclient //172.23.151.145/03_Cert -U kmau/ggonzalez
